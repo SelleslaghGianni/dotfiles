@@ -1,0 +1,25 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+[directory]
+disabled = false
+truncation_length = 8
+truncate_to_repo = false
+
+[directory.substitutions]
+"~/github.com/" = "github.com/"
+
+[cmd_duration]
+min_time = 1
+
+[nodejs]
+format = "via [$version](bold green) "
+
+[python]
+
+[custom.currenttime]
+command = 'date +"%I:%M:%S"'
+when = "true"
+style = "#000000"
+format = "at [$symbol($output )]($style)"
+
