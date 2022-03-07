@@ -23,3 +23,5 @@ when = "true"
 style = "#000000"
 format = "at [$symbol($output )]($style)"
 
+[git_metrics]
+disbaled="false"
